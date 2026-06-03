@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --brand:       #0fa6be;
+  --brand-dark:  #0d8fa5;
+  --brand-deep:  #0a7080;
+  --brand-light: #3dc3d6;
+  --brand-50:    #ecf9fb;
+  --brand-100:   #caf1f7;
+  --brand-200:   #96e3ef;
+
+  --cta:         #D01157;
+  --cta-dark:    #b00e4a;
+
+  --wa:          #25D366;
+  --wa-dark:     #1aad54;
+
+  --slate-50:    #f8fafc;
+  --slate-100:   #f1f5f9;
+  --slate-200:   #e2e8f0;
+  --slate-300:   #cbd5e1;
+  --slate-400:   #94a3b8;
+  --slate-500:   #64748b;
+  --slate-600:   #475569;
+  --slate-700:   #334155;
+  --slate-800:   #1e293b;
+  --slate-900:   #0f172a;
+  --white:       #ffffff;
+
+  --font-display: 'Outfit', sans-serif;
+  --font-body:    'Plus Jakarta Sans', sans-serif;
+
+  --r-sm:   6px;
+  --r-md:   12px;
+  --r-lg:   18px;
+  --r-xl:   24px;
+  --r-2xl:  32px;
+  --r-pill: 9999px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html  { scroll-behavior: smooth; }
+body  {
+  font-family: var(--font-body);
+  color: var(--slate-800);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 { font-family: var(--font-display); }
+img { max-width: 100%; display: block; }
+::selection { background: var(--brand-100); color: var(--brand-deep); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: var(--brand); border-radius: 3px; }
