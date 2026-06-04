@@ -3,7 +3,7 @@ import wcu from "../assets/Images/WCU.webp";
 
 function Benefits() {
   const items = [
-    { icon: "🦷", title: "Invisible Aligners", desc: "Clear aligners are virtually invisible so no one will know you're straightening your teeth." },
+    { icon: "🦷", title: "Invisible Aligners", desc: "Smilers Aligners are virtually invisible so no one will know you're straightening your teeth." },
     { icon: "😌", title: "Removable & Flexible", desc: "Remove them to eat, drink, and clean your teeth — no food restrictions or discomfort." },
     { icon: "💳", title: "0% Finance Available", desc: "Flexible payment plans. Smile now, pay over time with no hidden fees." },
     { icon: "⚡", title: "Faster Results", desc: "See visible improvements within weeks. Most treatments complete in 6–18 months." },
@@ -19,10 +19,10 @@ function Benefits() {
           style={{ marginBottom: 48 }}>
           <p style={{ fontFamily: "var(--font-body)", fontWeight: 600, fontSize: 13, color: "var(--brand)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: 10 }}>Why Choose Us</p>
           <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(26px,4vw,44px)", color: "var(--slate-900)", letterSpacing: "-0.6px", maxWidth: 560 }}>
-            Advantages of Clear Aligners
+            Advantages of Smilers Aligners
           </h2>
           <p style={{ fontFamily: "var(--font-body)", fontSize: 15, color: "var(--slate-500)", marginTop: 10, maxWidth: 480 }}>
-            Clear aligners are a modern, comfortable way to straighten your teeth without the hassle of traditional braces.
+            Smilers Aligners are a modern, comfortable way to straighten your teeth without the hassle of traditional braces.
           </p>
         </motion.div>
 
@@ -46,7 +46,7 @@ function Benefits() {
 
             <div style={{ marginTop: 4, padding: "14px 18px", background: "var(--brand)", borderRadius: "var(--r-md)", display: "inline-flex", alignItems: "center", gap: 8, alignSelf: "flex-start" }}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg>
-              <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 14, color: "white" }}>Savings of £2,000* on the Open Day</span>
+              <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 14, color: "white" }}>Savings of £1,250* on the Open Day</span>
             </div>
           </div>
 

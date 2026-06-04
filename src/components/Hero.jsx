@@ -1,12 +1,12 @@
 import { motion } from "framer-motion"
-import hero from "../assets/Images/About.webp";
+import hero from "../assets/Images/Aisha alingers.webp";
 
 const savings = [
-  { label: "£500 off Clear Aligner treatment" },
-  { label: "Free smile scan", sub: "worth £250" },
-  { label: "Free retainers", sub: "worth £820" },
-  { label: "Free Hygiene", sub: "worth £80" },
+  { label: "£500 off Smilers Aligner treatment" },
+  { label: "Free smile scan", sub: "worth £300" }, 
+  { label: "Free Hygiene", sub: "worth £100" },
   { label: "Free teeth whitening", sub: "worth £350" },
+  { label: "Free 12 months aftercare" },
 ]
 
 function Hero() {
@@ -48,11 +48,11 @@ function Hero() {
               </p>
 
               <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(30px,4.5vw,52px)", color: "var(--slate-900)", lineHeight: 1.1, letterSpacing: "-0.8px", marginBottom: 16 }}>
-                Clear Aligner<br />Open Day In Gosport
+                Smilers Aligner<br />Open Day In Gosport
               </h1>
 
               <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--slate-500)", marginBottom: 20, lineHeight: 1.6, maxWidth: 380 }}>
-                Book your free consultation from your local Clear Aligner provider.
+                Book your free consultation from your local Smilers Aligner provider.
               </p>
 
               {/* Progress / trust bar */}
@@ -101,7 +101,7 @@ function Hero() {
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <p style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(18px,3vw,28px)", color: "white", textAlign: "center", padding: "22px 0 16px", letterSpacing: "-0.4px" }}>
             Book Your FREE* Consultation below<br />
-            <span style={{ fontFamily: "var(--font-body)", fontWeight: 400, fontSize: "clamp(13px,2vw,17px)", opacity: 0.88 }}>Up to £2,000 in savings just for one day!</span>
+            <span style={{ fontFamily: "var(--font-body)", fontWeight: 400, fontSize: "clamp(13px,2vw,17px)", opacity: 0.88 }}>Up to £1,250 in savings just for one day!</span>
           </p>
 
           {/* Savings chips */}

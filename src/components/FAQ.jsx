@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "How do Smilers work?",
-    a: "Smilers use a series of custom-made, removable clear aligners to gradually move your teeth into the desired position. Each set of aligners is worn for 1–2 weeks before moving to the next set in the series."
+    a: "Smilers use a series of custom-made, removable Smilers Aligners to gradually move your teeth into the desired position. Each set of aligners is worn for 1–2 weeks before moving to the next set in the series."
   },
   {
     q: "Is there an age limit for Smilers?",
@@ -68,9 +68,31 @@ const faqs = [
               </motion.div>
             ))}
 
-            <a href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", marginTop: 8, background: "var(--brand)", color: "white", padding: "13px 24px", borderRadius: "var(--r-pill)", fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 15, textDecoration: "none", alignSelf: "flex-start" }}>
-              Book Online →
-            </a>
+            <a
+            href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha"
+            onClick={() => {
+              if (window.fbq) {
+                window.fbq('track', 'Lead');
+              }
+            }}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: 8,
+              background: "var(--brand)",
+              color: "white",
+              padding: "13px 24px",
+              borderRadius: "var(--r-pill)",
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: 15,
+              textDecoration: "none",
+              alignSelf: "flex-start"
+            }}
+          >
+            Book Online →
+          </a>
           </div>
 
           {/* Right: CTA image */}

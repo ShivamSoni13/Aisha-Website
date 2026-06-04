@@ -16,7 +16,26 @@ function Offer() {
             </div>
             {/* <a href="tel:+441234567890" style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 18, color: "var(--brand-light)", textDecoration: "none" }}>📞 01234 567890</a> */}
           </div>
-          <a href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha" style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "var(--brand)", color: "white", padding: "12px 24px", borderRadius: "var(--r-pill)", fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 15, textDecoration: "none", whiteSpace: "nowrap" }}>
+            <a
+            href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha"
+            onClick={() => {
+              window?.fbq?.('track', 'Lead');
+            }}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              background: "var(--brand)",
+              color: "white",
+              padding: "12px 24px",
+              borderRadius: "var(--r-pill)",
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: 15,
+              textDecoration: "none",
+              whiteSpace: "nowrap"
+            }}
+            >
             📅 Book Online
           </a>
         </motion.div>
@@ -26,18 +45,17 @@ function Offer() {
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p style={{ fontFamily: "var(--font-body)", fontWeight: 600, fontSize: 13, color: "var(--brand)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: 10 }}>Open Day Exclusive</p>
             <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(26px,3.5vw,40px)", color: "var(--slate-900)", letterSpacing: "-0.6px", marginBottom: 16 }}>
-              The ultimate Clear Aligner treatment package
+              The ultimate Smilers Aligner treatment package
             </h2>
             <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--brand)", fontWeight: 700, marginBottom: 16 }}>
-              Savings of £2,000* on the Open Day
+              Savings of £1,250* on the Open Day
             </p>
 
             {[
-              { label: "£500 off Clear Aligner treatment" },
+              { label: "£500 off Smilers Aligner treatment" },
               { label: "Free consultation" },
-              { label: "Free smile scan", val: "£250" },
-              { label: "Free Hygiene", sub: "worth £80" },
-              { label: "Free retainers", val: "£820" },
+              { label: "Free smile scan", val: "£300" },
+              { label: "Free Hygiene", sub: "worth £100" },
               { label: "Free teeth whitening", val: "£350" },
               { label: "Free 12 months aftercare" },
             ].map((row, i) => (
@@ -53,7 +71,26 @@ function Offer() {
               </div>
             ))}
 
-            <a href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", marginTop: 20, background: "var(--brand)", color: "white", padding: "13px 28px", borderRadius: "var(--r-pill)", fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
+              <a
+              href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha"
+              onClick={() => {
+                window?.fbq?.('track', 'Lead');
+              }}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: 20,
+                background: "var(--brand)",
+                color: "white",
+                padding: "13px 28px",
+                borderRadius: "var(--r-pill)",
+                fontFamily: "var(--font-display)",
+                fontWeight: 700,
+                fontSize: 15,
+                textDecoration: "none"
+              }}
+              >
               Book Online →
             </a>
           </motion.div>

@@ -93,7 +93,7 @@ function MeetClinician() {
             <div style={{ padding: "32px 36px" }}>
 
               <p style={{ fontFamily: "var(--font-body)", fontWeight: 300, fontSize: 15, color: "rgba(255,255,255,0.72)", lineHeight: 1.8, marginBottom: 28 }}>
-                Dr. Aisha is a highly experienced dentist with a special interest in clear aligner orthodontics and cosmetic dentistry. Having treated hundreds of patients across the UK, Dr. Aisha is dedicated to delivering life-changing smile transformations in a comfortable, patient-first environment.
+                Dr. Aisha is a highly experienced dentist with a special interest in Smilers Aligner orthodontics and cosmetic dentistry. Having treated hundreds of patients across the UK, Dr. Aisha is dedicated to delivering life-changing smile transformations in a comfortable, patient-first environment.
               </p>
 
               {/* Credentials list */}
@@ -104,7 +104,7 @@ function MeetClinician() {
                   { icon: "✅", label: "Invisalign Certified" },
                   { icon: "⭐", label: "4.9★ Patient Rating" },
                   { icon: "👥", label: "500+ Patients Treated" },
-                  { icon: "🦷", label: "Clear Aligner Specialist" },
+                  { icon: "🦷", label: "Smilers Aligner Specialist" },
                 ].map((c, i) => (
                   <div key={i} style={{ display: "flex", alignItems: "center", gap: 10 }}>
                     <div style={{ width: 34, height: 34, background: "rgba(15,166,190,0.14)", border: "1px solid rgba(15,166,190,0.28)", borderRadius: "var(--r-sm)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, flexShrink: 0 }}>
