@@ -55,7 +55,7 @@ function Offer() {
               { label: "£500 off Smilers Aligner treatment" },
               { label: "Free consultation" },
               { label: "Free smile scan", val: "£300" },
-              { label: "Free Hygiene", sub: "worth £100" },
+              { label: "Free Hygiene", val: "£100" },
               { label: "Free teeth whitening", val: "£350" },
               { label: "Free 12 months aftercare" },
             ].map((row, i) => (
