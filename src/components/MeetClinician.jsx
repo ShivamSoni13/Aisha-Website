@@ -139,7 +139,7 @@ function MeetClinician() {
                 >
                   📅 Book with Dr. Aisha
                 </a>
-                <a href="https://wa.me/447305153359" target="_blank" rel="noopener noreferrer" style={{
+                <a href="https://wa.me/443304415566" target="_blank" rel="noopener noreferrer" style={{
                   display: "inline-flex", alignItems: "center", gap: 8,
                   background: "#25D366", color: "white",
                   padding: "12px 22px", borderRadius: "var(--r-pill)",

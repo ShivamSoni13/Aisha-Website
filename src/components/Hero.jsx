@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import hero from "../assets/Images/Aisha alingers.webp";
+import hero from "../assets/Images/About Aisha.png";
 
 const savings = [
   { label: "£500 off Smilers Aligner treatment" },

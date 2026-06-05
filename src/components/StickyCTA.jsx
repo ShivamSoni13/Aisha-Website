@@ -16,7 +16,7 @@ function StickyCTA() {
           </p>
         </div>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-          <motion.a href="https://wa.me/447305153359" target="_blank" rel="noopener noreferrer"
+          <motion.a href="https://wa.me/443304415566" target="_blank" rel="noopener noreferrer"
             whileHover={{ y: -1 }} whileTap={{ scale: 0.96 }}
             style={{ display: "inline-flex", alignItems: "center", gap: 7, background: "#25D366", color: "white", padding: "10px 18px", borderRadius: "var(--r-pill)", fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" }}>
             {WA} WhatsApp

@@ -53,7 +53,7 @@ function Footer() {
          <div style={{ minWidth: 300}}>
             <p style={fHead}>Get In Touch</p>
             <a href="tel:+443304415566" style={{ ...fLink, marginBottom: 8 }} onMouseEnter={e=>e.target.style.color="var(--brand-light)"} onMouseLeave={e=>e.target.style.color="rgba(255,255,255,0.4)"}>📞 0330 44 15566</a>
-            <a href="https://wa.me/447305153359" target="_blank" rel="noopener noreferrer" style={{ ...fLink, marginBottom: 8 }} onMouseEnter={e=>e.target.style.color="#25D366"} onMouseLeave={e=>e.target.style.color="rgba(255,255,255,0.4)"}>💬 WhatsApp Us</a>
+            <a href="https://wa.me/443304415566" target="_blank" rel="noopener noreferrer" style={{ ...fLink, marginBottom: 8 }} onMouseEnter={e=>e.target.style.color="#25D366"} onMouseLeave={e=>e.target.style.color="rgba(255,255,255,0.4)"}>💬 WhatsApp Us</a>
             <a href="mailto:customerservice@smiledentalcare.co.uk" style={{ ...fLink, marginBottom: 18, whiteSpace: "nowrap", fontSize: 12 }} onMouseEnter={e=>e.target.style.color="var(--brand-light)"} onMouseLeave={e=>e.target.style.color="rgba(255,255,255,0.4)"}>✉ customerservice@smiledentalcare.co.uk</a>
             <a
             href="https://calendly.com/booksmiledentalcare/clear-aligners-open-day-sat-4th-july-with-dr-aisha"
