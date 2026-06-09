@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import jasImage from "../assets/Images/Aisha.webp";
+import jasImage from "../assets/Images/Aisha.png";
 
 
 function MeetClinician() {

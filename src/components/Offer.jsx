@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import offer from "../assets/Images/Aisha alingers.webp";
+import offer from "../assets/Images/Aisha Offer.png";
 
 function Offer() {
   return (
